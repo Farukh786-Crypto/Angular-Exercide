@@ -1,0 +1,8 @@
+<h2> {{title}} </h2>
+<form>
+    <select (change)="display($event)">
+        <option *ngFor="let category of categories" value="{{category.id}}">{{category.name}}</option>
+    </select>
+    <br>
+    <span [innerHTML]="result"></span>
+</form>
