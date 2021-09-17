@@ -12,6 +12,10 @@ import { TaskFiveComponent } from './Task5/TaskFive.component';
 import { TaskSixComponent } from './Task6/TaskSix.component';
 import { TaskSevenComponent } from './Task7/TaskSeven.component';
 import { TaskEightComponent } from './Task8/TaskEight.component';
+import { TaskNineComponent } from './Task9/TaskNine.component';
+import { TaskTenComponent } from './Task10/TaskTen.component';
+import { TaskElevenComponent } from './Task11/TaskEleven.component';
+import { TaskTwelveComponent } from './Task12/TaskTwelve.component';
 
 
 @NgModule({
@@ -24,12 +28,17 @@ import { TaskEightComponent } from './Task8/TaskEight.component';
     TaskFiveComponent,
     TaskSixComponent,
     TaskSevenComponent,
-    TaskEightComponent
+    TaskEightComponent,
+    TaskNineComponent,
+    TaskTenComponent,
+    TaskElevenComponent,
+    TaskTwelveComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
    
   ],
   providers: [],

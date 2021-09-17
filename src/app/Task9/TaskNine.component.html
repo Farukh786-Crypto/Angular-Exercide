@@ -1,0 +1,17 @@
+<h1> {{title}} </h1>
+<form>
+    <h3> Select File </h3>
+    <input type="file" (change)="save($event)">
+    <br>
+    <span [innerHTML]="result"></span>
+    <br>
+    <hr>
+    <h3> select multiple file code </h3>  
+    <input type="file" (change)="saveMultiple($event)" multiple="multiple">
+    <br>
+    <span [innerHTML]="result"></span>
+</form>
+
+
+
+

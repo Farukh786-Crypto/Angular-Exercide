@@ -1,0 +1,11 @@
+<h1> {{title|titlecase}} </h1>
+<form>
+    <input type="text" [ngModel]="result" [ngModelOptions]="{standalone:true}">
+    <br>
+    {{result}}
+    <hr>
+    <hr>
+    <input type="text" [(ngModel)]="result1" [ngModelOptions]="{standalone:true}">
+    <br>
+    {{result1}}
+</form>

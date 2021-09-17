@@ -7,6 +7,7 @@ import { Category } from './category.entity';
 })
 
 export class TaskEightComponent implements OnInit{
+    title:string='select element from List with change Event in Angular 12'
     ngOnInit(): void {
         this.categories=[
             {id: 'c1', name:'category 1'},
@@ -15,7 +16,7 @@ export class TaskEightComponent implements OnInit{
             {id: 'c4', name:'category 4'}
         ];
     }
-    title:string='select element from List with change Event in Angular 12'
+   
     result:string='';
     categories:Category[]=[];
 
