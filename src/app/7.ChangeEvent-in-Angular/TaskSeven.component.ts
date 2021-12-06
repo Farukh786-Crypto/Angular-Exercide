@@ -6,7 +6,7 @@ import { Component } from '@angular/core'
 })
 
 export class TaskSevenComponent{
-    title:string='ChangeEvent in angular 12'
+    title:string='ChangeEvent in Angular 12'
     result:string='';
 
     display(event:any):void

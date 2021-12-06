@@ -8,7 +8,7 @@ import { Customer } from './Customer';
 
 export class TaskOneComponent{
     title:string='Passing value from component to view';
-    customer:Customer=new Customer();
+    customer:Customer=new Customer();// create object of Customer
     ngOnInit(){
         this.customer.age=20;
         this.customer.fullName='abc';

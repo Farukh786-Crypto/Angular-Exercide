@@ -1,5 +1,5 @@
 import { Component } from '@angular/core'
-import { Product } from '../Task2/product.entity'
+import { Product } from '../2.Pass-Object-From-Component-to-View/product.entity'
 
 @Component({
     selector: 'task3-comp',

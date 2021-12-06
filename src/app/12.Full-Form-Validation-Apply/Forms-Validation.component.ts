@@ -6,7 +6,7 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
     templateUrl: './TaskTwelve.component.html'
 })
 
-export class TaskTwelveComponent implements OnInit {
+export class TaskTwelve implements OnInit {
 
     registerForm:any;
 

@@ -6,7 +6,7 @@ import { Component } from '@angular/core'
 })
 
 export class TaskFourComponent{
-    title:string='KeyUp Event in Angular 12'
+    title:string='Button Event in Angular 12'
     result:string=''
     ClickMe()
     {

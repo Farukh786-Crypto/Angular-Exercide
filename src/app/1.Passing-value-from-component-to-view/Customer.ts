@@ -4,7 +4,6 @@ export class Customer
     fullName:string=""
     status:boolean=false
     email:any=""
-
 }
 
 

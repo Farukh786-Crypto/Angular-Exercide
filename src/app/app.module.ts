@@ -4,18 +4,18 @@ import { BrowserModule } from '@angular/platform-browser';
 import {HttpClientModule} from '@angular/common/http'
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { TaskOneComponent } from './Task1/TaskOne.component';
-import { TaskTwoComponent } from './Task2/TaskTwo.component';
-import { TaskThreeComponent } from './Task3/TaskThree.component';
-import { TaskFourComponent } from './Task4/TaskFour.component';
-import { TaskFiveComponent } from './Task5/TaskFive.component';
-import { TaskSixComponent } from './Task6/TaskSix.component';
-import { TaskSevenComponent } from './Task7/TaskSeven.component';
-import { TaskEightComponent } from './Task8/TaskEight.component';
-import { TaskNineComponent } from './Task9/TaskNine.component';
-import { TaskTenComponent } from './Task10/TaskTen.component';
-import { TaskElevenComponent } from './Task11/TaskEleven.component';
-import { TaskTwelveComponent } from './Task12/TaskTwelve.component';
+import { TaskOneComponent } from './1.Passing-value-from-component-to-view/TaskOne.component';
+import { TaskTwoComponent } from './2.Pass-Object-From-Component-to-View/TaskTwo.component';
+import { TaskThreeComponent } from './3.Pass-ObjectList-From-Component-to-View/TaskThree.component';
+import { TaskFourComponent } from './4.Button-Event-in-Angular/TaskFour.component';
+import { TaskFiveComponent } from './5.KeyUp-Event-in-Angular/TaskFive.component';
+import { TaskSixComponent } from './6.KeyUp.Enter-Event-in-Angular/TaskSix.component';
+import { TaskSevenComponent } from './7.ChangeEvent-in-Angular/TaskSeven.component';
+import { TaskEightComponent } from './8.List-of-ChangeEvent/TaskEight.component';
+import { TaskNineComponent } from './9.Select-Multiple-File-with-ChangeEvent/TaskNine.component';
+import { TaskTenComponent } from './10.Data-Binding-in-Angular/TaskTen.component';
+import { TaskElevenComponent } from './11.FormControl-in-Angular/TaskEleven.component';
+import { TaskTwelve } from './12.Full-Form-Validation-Apply/Forms-Validation.component';
 
 
 @NgModule({
@@ -32,14 +32,14 @@ import { TaskTwelveComponent } from './Task12/TaskTwelve.component';
     TaskNineComponent,
     TaskTenComponent,
     TaskElevenComponent,
-    TaskTwelveComponent
+    TaskTwelve
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
     ReactiveFormsModule
-   
+
   ],
   providers: [],
   bootstrap: [AppComponent]
